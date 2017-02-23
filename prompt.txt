@@ -1,0 +1,24 @@
+The general program flow is as follows:
+Generate a random number between 1 – 5 and 3 – 8 for express and normal lanes, respectively. This represents the arrival time of the first customer into each lane.
+Set the variable for total time elapsed to 0.
+As customers arrive into each line, randomly generate a service time for each. Start processing the customers in the lanes based on service time.
+Randomly generate the arrival time of the next customer into each line. Elapsed time should be updated by one unit.
+As each minute elapses, a new customer may arrive and/or another customer may be done checking out. Display the appropriate messages as described above.
+For every 10 minutes, print out the entire queue for each line
+Repeat steps 2 through 4 for n minutes of simulation.
+
+
+This assignment is worth 100 points. Your assignment will be evaluated based on a successful compilation and adherence to the program requirements.
+We will grade according to the following criteria:
+
+*       10 pts – Appropriate top-down design, style, and commenting according to class standards
+*       25 pts – Correct usages of two queues in simulation
+*       5 pts – Correct QueueNode definition
+*       5 pts – Correct Queue definition
+*       10 pts – Correct makeNode()
+*       10 pts – Correct printQueue()
+*       5 pts – Correct isEmpty()
+*       15 pts – Correct enqueue()
+*       15 pts – Correct dequeue()
+
+*       BONUS: Up to 20 pts for implementation of grocery item list/customer

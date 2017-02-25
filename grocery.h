@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
+#include <conio.h>
+#include <Windows.h>
 
 typedef struct queueNode
 {
@@ -20,7 +23,8 @@ typedef struct queue
 //Function prototypes
 
 int isEmpty (Queue q);                                            //check if queue is empty
-void printQueue(Queue q);                                         //print contents of a queue
+void printfQueue(QueueNode *pHead);                                         //print contents of a queue
 QueueNode * makeNode(int custNum, int servTime, int totalTime);   //creates a new queuenode
-void enqueue(struct queue *line, struct queueNode new_node);      //adds to back of queue
+void enqueue(struct queue *line, int custNum, int servTime, int totalTime);      //adds to back of queue
 void dequeue(struct queue *line);                                 //takes from front of queue
+int random_number(int min_num, int max_num);

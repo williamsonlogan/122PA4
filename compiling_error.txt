@@ -1,0 +1,38 @@
+C:\Users\Logan\Documents\122PA4\grocery.c: In function 'printfQueue':
+C:\Users\Logan\Documents\122PA4\grocery.c:8:5: error: stray '\342' in program
+     printf(“Customer %d - Time to service:%d | Total time:%d\n”, (pHead)->customerNumber;
+     ^
+C:\Users\Logan\Documents\122PA4\grocery.c:8:5: error: stray '\200' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:8:5: error: stray '\234' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:8:15: error: 'Customer' undeclared (first use in this function)
+     printf(“Customer %d - Time to service:%d | Total time:%d\n”, (pHead)->customerNumber;
+               ^
+C:\Users\Logan\Documents\122PA4\grocery.c:8:15: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Logan\Documents\122PA4\grocery.c:8:25: error: 'd' undeclared (first use in this function)
+     printf(“Customer %d - Time to service:%d | Total time:%d\n”, (pHead)->customerNumber;
+                         ^
+C:\Users\Logan\Documents\122PA4\grocery.c:8:29: error: 'Time' undeclared (first use in this function)
+     printf(“Customer %d - Time to service:%d | Total time:%d\n”, (pHead)->customerNumber;
+                             ^
+C:\Users\Logan\Documents\122PA4\grocery.c:8:34: error: expected ')' before 'to'
+     printf(“Customer %d - Time to service:%d | Total time:%d\n”, (pHead)->customerNumber;
+                                  ^
+C:\Users\Logan\Documents\122PA4\grocery.c:8:34: error: stray '\' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:8:34: error: stray '\342' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:8:34: error: stray '\200' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:8:34: error: stray '\235' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:12:3: error: expected ';' before '}' token
+   } else // Base case
+   ^
+C:\Users\Logan\Documents\122PA4\grocery.c:14:5: error: stray '\342' in program
+     printf(“NULL\n”);
+     ^
+C:\Users\Logan\Documents\122PA4\grocery.c:14:5: error: stray '\200' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:14:5: error: stray '\234' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:14:5: error: stray '\' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:14:20: error: expected ')' before 'n'
+     printf(“NULL\n”);
+                    ^
+C:\Users\Logan\Documents\122PA4\grocery.c:14:20: error: stray '\342' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:14:20: error: stray '\200' in program
+C:\Users\Logan\Documents\122PA4\grocery.c:14:20: error: stray '\235' in program
